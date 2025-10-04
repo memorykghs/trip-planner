@@ -1,0 +1,89 @@
+.accommodation-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    background-color: #F5D2D2;
+    width: 100%;
+    max-width: 800px;
+}
+
+.accommodation-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.accommodation-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    white-space: pre-line;
+}
+
+.accommodation-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #1e293b;
+}
+
+.accommodation-phone {
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-top: 4px;
+}
+
+.accommodation-body p {
+    margin: 4px 0;
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.accommodation-description {
+    margin-top: 10px;
+    white-space: pre-wrap;
+    color: #4a4a4a;
+    font-size: 16px;
+}
+
+.accommodation-extra {
+    margin-top: 16px;
+    background-color: #f5f5f5;
+    border-left: 4px solid #BDE3C3;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.extra-title {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+/* 手機版調整 */
+@media (max-width: 480px) {
+    .accommodation-card {
+        padding: 14px;
+        max-width: 90%;
+    }
+
+    .accommodation-name {
+        white-space: pre-line;
+        font-size: 18px;
+    }
+
+    .accommodation-body p {
+        font-size: 15px;
+    }
+
+    .extra-title {
+        font-size: 16px;
+    }
+
+    .extra-items li {
+        font-size: 14px;
+    }
+}

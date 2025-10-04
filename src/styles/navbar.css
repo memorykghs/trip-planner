@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed; /* 讓 navbar 固定在畫面上方 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 999;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.navbar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-menu {
+    background-color: white;
+    width: 250px;
+    height: 100%;
+    list-style: none;
+    padding: 2rem;
+    margin: 0;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    position: relative;
+}
+
+.navbar-menu li {
+    margin-bottom: 1rem;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.navbar-close {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: right;
+}

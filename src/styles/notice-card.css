@@ -1,0 +1,45 @@
+.notice-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-left: 20px solid #BDE3C3;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    max-width: 720px;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+.notice-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.notice-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin: 2px;
+
+}
+
+.notice-text {
+    color: #4a4a4a;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+@media (min-width: 480px) {
+    .notice-card {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+    .notice-card {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

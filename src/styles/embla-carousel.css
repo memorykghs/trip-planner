@@ -1,0 +1,73 @@
+.embla {
+    position: relative;
+}
+
+.embla__viewport {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.embla__container {
+    display: flex;
+    will-change: transform;
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* 留白顏色，可自定義 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.embla__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px;
+}
+
+.embla__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.embla__button--prev {
+    left: 10px;
+}
+
+.embla__button--next {
+    right: 10px;
+}
+
+/* 響應式微調 */
+@media (max-width: 768px) {
+    .embla__button {
+        width: 32px;
+        height: 32px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .embla__button {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+    }
+}

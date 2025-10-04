@@ -1,0 +1,58 @@
+.meal-plan-card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    background-color: #F8F7BA;
+    width: 100%;
+    max-width: 800px;
+}
+
+.meal-plan-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.meal-plan-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.meal-plan-row {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.meal-plan-item {
+    display: flex;
+    margin: 4px 0;
+}
+
+.meal-plan-label {
+    font-weight: 600;
+    color: #555;
+    min-width: 48px;
+}
+
+.meal-value {
+    color: #333;
+}
+
+/* 手機版調整 */
+@media (max-width: 480px) {
+    .meal-plan-card {
+        padding: 14px;
+        max-width: 90%;
+    }
+
+    .meal-plan-label {
+        min-width: 48px;
+    }
+}

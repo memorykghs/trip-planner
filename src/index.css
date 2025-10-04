@@ -1,0 +1,44 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding-top: 21px;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.trip-title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    word-break: break-word;
+    color: #1e293b;
+    padding: 1rem;
+    background: linear-gradient(to right, #F8F7BA, #BDE3C3);
+    border-bottom: 4px solid #A3CCDA;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    .trip-title {
+        font-size: 1.5rem;
+        padding: 1rem 0.5rem;
+    }
+}

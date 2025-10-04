@@ -1,0 +1,42 @@
+.extra-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    background-color: #fafafa;
+    max-width: 800px;
+}
+
+.extra-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.extra-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+/* 響應式字體調整 */
+@media (max-width: 768px) {
+    .extra-title {
+        font-size: 0.85rem;
+    }
+
+    .extra-subtitle {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .extra-title {
+        font-size: 0.8rem;
+    }
+
+    .extra-subtitle {
+        font-size: 0.9rem;
+    }
+}
