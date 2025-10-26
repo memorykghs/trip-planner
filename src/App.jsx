@@ -8,6 +8,7 @@ import ContactPage from './pages/ContactPage';
 import PackagePage from './pages/PackagePage';
 import ItineraryPage from './pages/ItineraryPage';
 import NoticePage from './pages/NoticePage';
+import EditPage from './pages/EditPage';
 import tripData from "./data/schedule.json";
 import PasswordPage from "./pages/PasswordPage.jsx";
 
@@ -19,7 +20,6 @@ function App() {
         contacts = [],
         preTripChecklist = [],
         luggageList = [],
-        itinerary = [],
         noticeItems = []
     } = tripData;
 
@@ -66,6 +66,7 @@ function App() {
                                element={<PackagePage preTripChecklist={preTripChecklist} luggageList={luggageList}/>}/>
                         <Route path="/itinerary" element={<ItineraryPage/>}/>
                         <Route path="/notice" element={<NoticePage noticeItems={noticeItems}/>}/>
+                        <Route path="/edit" element={<EditPage/>}/>
                     </Routes>
                 </div>
             </Router>

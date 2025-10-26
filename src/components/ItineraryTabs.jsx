@@ -6,35 +6,35 @@ import AccommodationCard from "../cards/AccommodationCard.jsx";
 import MealPlanCard from "../cards/MealPlanCard.jsx";
 
 export default function ItineraryTabs() {
-    const [activeDay, setActiveDay] = useState(1);
-    const activeItinerary = schedule.itinerary.find(i => i.day === activeDay);
+    const [activeDayIndex, setActiveDayIndex] = useState(0);
+    const activeItinerary = schedule.itinerary[activeDayIndex];
 
     return (
         <div>
             {/* Tabs */}
             <div className="tabs">
-                {schedule.itinerary.map(({day}) => (
+                {schedule.itinerary.map((item, index) => (
                     <button
-                        key={day}
-                        className={`tab-button ${activeDay === day ? 'active' : ''}`}
-                        onClick={() => setActiveDay(day)}
+                        key={index}
+                        className={`tab-button ${activeDayIndex === index ? 'active' : ''}`}
+                        onClick={() => setActiveDayIndex(index)}
                     >
-                        Day {day}
+                        Day {index + 1}
                     </button>
                 ))}
             </div>
 
-            {activeItinerary?.meals && (
-                <MealPlanCard meals={activeItinerary.meals} />
-            )}
+            {/*{activeItinerary?.meals && (*/}
+            {/*    <MealPlanCard meals={activeItinerary.meals} />*/}
+            {/*)}*/}
 
             {activeItinerary?.accommodation && (
                 <AccommodationCard accommodation={activeItinerary.accommodation} />
             )}
 
             {/* Spots under active tab */}
-            {activeItinerary?.spots.map((spot) => (
-                <SpotCard spot={spot}/>
+            {activeItinerary?.spots.map((spot, spotIdx) => (
+                <SpotCard key={spotIdx} spot={spot}/>
             ))}
         </div>
     );

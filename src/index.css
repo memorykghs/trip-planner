@@ -26,8 +26,8 @@ html, body, #root {
     word-break: break-word;
     color: #1e293b;
     padding: 1rem;
-    background: linear-gradient(to right, #F8F7BA, #BDE3C3);
-    border-bottom: 4px solid #A3CCDA;
+    background: linear-gradient(to right, #B1F0F7, #F5F0CD);
+    border-bottom: 4px solid #a9d7e5;
     box-sizing: border-box;
 }
 

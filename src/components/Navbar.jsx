@@ -34,6 +34,7 @@ export default function Navbar() {
                         <li><Link to="/packages" onClick={() => setOpen(false)}>行李清單</Link></li>
                         <li><Link to="/itinerary" onClick={() => setOpen(false)}>行程</Link></li>
                         <li><Link to="/notice" onClick={() => setOpen(false)}>注意事項</Link></li>
+                        <li><Link to="/edit" onClick={() => setOpen(false)}>編輯器</Link></li>
                     </ul>
                 </div>
             )}

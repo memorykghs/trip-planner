@@ -62,9 +62,9 @@
       "date": "2026-01-01",
       "day": 1,
       "accommodation": {
-        "name": "宜必思馬六甲酒店 Ibis Melaka",
-        "address": "",
-        "phone": "+60 6-281 8888",
+        "name": "Sapporo View Hotel Odori Park",
+        "address": "北海道, 札幌, Chuo-ku Odori Nishi 8-chome , 日本",
+        "phone": "+81 11-261-0330",
         "checkIn": "",
         "checkOut": "",
         "images": [],
@@ -72,53 +72,38 @@
       },
       "spots": [
         {
-          "name": "三寶廟\r\nCheng Hoon Teng Temple",
-          "time": "15:00",
-          "description": "馬來西亞最古老的華人廟宇，融合福建、粵式與馬來建築特色，是供奉鄭和的信仰中心。三寶廟建於 1795 年，為紀念明代航海家鄭和而建，廟旁即為三寶山與三寶井。相傳 15 世紀，明朝皇帝將漢麗寶公主嫁予馬六甲蘇丹滿素沙，為表誠意，將三寶山贈予公主作住所。漢麗寶井由公主隨從所挖，不僅供她使用，也是當時重要的城市水源，如今為當地最具歷史價值的文化遺產之一。",
+          "name": "莫埃來沼公園",
+          "time": "16:30",
+          "description": "地下鐵東豐線「環狀通東站」搭乘巴士，約25分鐘即可抵達莫埃來沼公園東口。\n\n莫埃來沼公園不只是一座平凡的公園，更是一座大型的設計作品，有著許多由世界知名的雕刻家野口勇（Isamu Noguchi）親自著手的設計作品。莫埃來沼公園前身為一片270萬噸廢棄物堆起的垃圾山，在1982年由日裔美國人野口勇（Isamu Noguchi）擔任處理，以「環城綠化帶」為構想，預計將這片垃圾廢墟之地整頓活化成一片新天地。",
           "tags": [
-            "歷史建築",
-            "宗教文化",
-            "拍照景點"
+            "建築景點",
+            "公園"
           ],
-          "map": "",
           "images": [
-            "/cheng-hoon-teng-temple.jpg"
+            "https://static.gltjp.com/glt/data/directory/14000/13586/20220903_082917_bb56a783_w640.webp",
+            "https://cjscene.com/wp-content/uploads/2025/07/003-2-3.jpg"
           ],
           "mustEat": [],
           "mustBuy": [],
-          "reference": []
+          "map": "https://maps.app.goo.gl/fhuZvyNXdDk9tTrAA",
+          "reference": [
+            "https://journey.tw/moerenuma_park/"
+          ],
+          "isMeal": false
         },
         {
-          "name": "漢麗寶井\r\nHang Li Poh's Well",
-          "time": "16:00",
-          "description": "又稱皇后井，相傳為明朝公主所挖，至今仍有水源，是馬六甲歷史與信仰的象徵。三寶廟旁有一口漢麗寶井，是公主的隨從為她挖掘的，除了提供她個人使用以外，也是市內的主要水源。這口井是敵對勢力的主要攻佔目標，他們或是占為己用或者對之下毒。據說這口井永不枯竭，即使是嚴重乾旱亦不例外。如今，這口井已轉為“許願井”，據說若有人在此投下一個錢幣，他一定會重遊馬六甲。",
+          "name": "晚餐：回札幌 JR 展，JR Tower 10 樓",
+          "time": "19:00",
+          "description": "",
           "tags": [
-            "歷史地點",
-            "祈福景點"
+            "晚餐"
           ],
-          "images": [
-            "/hang-li-poh-well-1.jpg",
-            "https://www.promotemalaysia.com.tw/UserFiles/images/H-0610-84.jpg"
-          ],
+          "images": [],
           "mustEat": [],
-          "mustBuy": []
-        },
-        {
-          "name": "馬六甲海上遊艇\r\nStrait of Malacca",
-          "time": "17:30",
-          "description": "從海上觀賞馬六甲城市天際線與水上清真寺美景，體驗鄭和下西洋的歷史情境。馬六甲 (Malacca / Melaka) 位於馬六甲海峽出口的樞紐位置，為一個古老的海港。蘇門答臘王子─拜里米蘇拉 (Parameswara) 曾在建立馬六甲王朝，使當地蓬勃發展。馬六甲也曾經是本區域的香料貿易中心，曾被喻為東方的威尼斯。",
-          "tags": [
-            "海上體驗",
-            "歷史景點",
-            "夕陽美景",
-            "清真寺"
-          ],
-          "images": [
-            "/malacca-1.jpg",
-            "/malacca-2.jpg"
-          ],
-          "mustEat": [],
-          "mustBuy": []
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/SXo4PAyqYv6N1vyw6",
+          "reference": [],
+          "isMeal": true
         }
       ]
     },
@@ -126,14 +111,14 @@
       "date": "2026-01-02",
       "day": 2,
       "meals": {
-        "breakfast": "飯店內用",
-        "lunch": "古厝馬來香料咖哩雞七色飯、椰糖煎蕊冰、秘製脆沙嗲腐竹、古早味紅茶(馬幣 45)",
-        "dinner": "水上屋泰式風味餐 (餐標馬幣75)"
+        "breakfast": "",
+        "lunch": "",
+        "dinner": ""
       },
       "accommodation": {
-        "name": "猴子渡假村\r\nMonkeys Canopy Resort",
-        "address": "",
-        "phone": "+60- 3- 93880777",
+        "name": "Sapporo View Hotel Odori Park",
+        "address": "北海道, 札幌, Chuo-ku Odori Nishi 8-chome , 日本",
+        "phone": "+81 11-261-0330",
         "checkIn": "",
         "checkOut": "",
         "images": [],
@@ -151,134 +136,139 @@
       },
       "spots": [
         {
-          "name": "荷蘭紅屋",
-          "time": "09:00",
-          "description": "荷蘭殖民時期建築代表，為東方世界最古老的荷蘭建築之一，建於1641–1660年間。整棟建築粉刷成橙紅色，向來是荷蘭總督的官邸。如今荷蘭城內包含了馬六甲歷史博物館、人種博物館及文學博物館。\r\n 馬六甲是由一名流亡的王子，拜裏米蘇拉所發現，之後就迅速發展成為東西方進行商業活動的貿易中心。當時，此地進行香料、黃金、絲綢、茶葉、鴉片、香煙及香水等貿易，引起了西方殖民強權的注意。後來，馬六甲先後受到葡萄牙、荷蘭及英國的殖民統治。",
+          "name": "早餐",
+          "time": "08:30-09:00",
+          "description": "吃早餐＋買咖啡",
           "tags": [
-            "歷史建築",
-            "文化遺產"
+            "早餐"
+          ],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "reference": [],
+          "isMeal": true
+        },
+        {
+          "name": "前往北海道神宮",
+          "time": "09:00-09:40",
+          "description": "⛩️ 五座鳥居\n\n1. 存在感超凡的「第一鳥居」\n\n2. 斬斷惡緣的「第二鳥居」\n不光會「斬斷疾病與不幸、惡緣」，據說也會切斷戀愛關係的良緣，是必須特別留意的鳥居。\n\n3. 最適合想要發大財之人的「第三鳥居」\n鄰近北海道神宮「南第一停車場」的第三鳥居。\n\n4. 連接巡禮3座境內社之參道的「公園口鳥居」\n由此前往本殿的參道會依序經過3座境內社，因此是各鳥居中最推薦的一處入口。\n\n5. 以不鏽鋼打造，造型優美的「令和鳥居」\n為紀念北海道神宮御鎮齋（創建）一百五十週年而興建的令和鳥居。位在境內的「六花亭・神宮茶屋」前方。",
+          "tags": [
+            "神社參拜"
           ],
           "images": [
-            "/stadhuys-complex-1.jpg",
-            "/stadhuys-complex-2.jpg"
+            "https://ksk.tw/wp-content/uploads/pixnet/4bd12f71d564fd9cf214129e25cf2453.jpg"
           ],
+          "mustEat": [],
           "mustBuy": [],
-          "mustEat": []
+          "map": "https://maps.app.goo.gl/ALGafCHJ3k3sfrQs5",
+          "reference": [
+            "https://www.gltjp.com/zh-hant/article/item/20333/"
+          ],
+          "isMeal": false,
+          "transportation": "地下鐵（西 11 丁目 → 圓山公園 3 號出口），步行約 15 分鐘。"
         },
         {
-          "name": "鐘樓",
-          "time": "09:30",
-          "description": "三層式紅色鐘樓，設有四面時鐘，曾為市民提供報時服務。",
+          "name": "北海道神宮參拜",
+          "time": "10:00-11:30",
+          "description": "⛩️ 在北海道神宮境內有著3座定位為境內社的神社。\n\n1. 開拓神社\n可提升「工作運」和「勝負運」，吸引了眾多的經營者前來參拜。\n\n2. 札幌礦靈神社\n札幌礦靈神社供奉的是為了開拓北海道賭上生命的礦山殉職者們。\n是能夠獲取「安全祈願」護佑的神社。\n\n3. 穗多木神社\n一般的狛犬都是以石頭打造，青銅製的狛犬相當少見，請不要錯過。\n據說對「提升財運」具有護佑。\n\n\n⛩️ 穿越鳥居前和離開後都要鞠躬一次\n神社的鳥居象徵著現世與神域之間的結界。\n就像是拜訪「神明的住所」一樣，穿越鳥居前請先鞠躬致意。\n\n⛩️ 不可走在參道的中央\n參道中央被視為神明的通道。\n因此在行走參道時請避開中央，從兩側通行。\n\n⛩️ 在手水舍淨身淨心\n在進入神前前，請先在「手水舍」用水淨身・淨心。\n具體步驟如下：\n\n1. 用右手拿起柄杓，清洗左手。\n\n2. 換成左手拿柄杓，清洗右手。\n\n3. 再次用右手拿柄杓，將水倒在左手掌中，輕輕漱口（注意不要碰到柄杓）。\n\n4. 將柄杓立起來，讓水流過柄部以清潔，然後放回。\n\n⛩️ 二拝・二拍手・一拝\n1. 二拜：連續深深地鞠躬2次\n\n2. 二拍手：將兩手舉到胸口的高度，右手較左手稍稍靠近身前，將雙手張開至與肩同寬並拍手2次\n\n3. 一拜：最後再一鞠躬",
           "tags": [
-            "歷史建築",
-            "文化遺產"
-          ],
-          "images": [],
-          "mustBuy": [],
-          "mustEat": []
-        },
-        {
-          "name": "葡萄牙廣場",
-          "time": "10:00",
-          "description": "1980年代仿葡萄牙風格建成的廣場，是休閒與拍照的熱門景點。",
-          "tags": [
-            "歷史建築",
-            "異國風情"
-          ],
-          "images": [],
-          "mustBuy": [],
-          "mustEat": []
-        },
-        {
-          "name": "聖地牙哥古堡遺址與古城門",
-          "time": "10:30",
-          "description": "建於十六世紀初東方最偉大的城堡之葡萄牙城門，是葡萄牙人在佔據了馬六甲後，建造以抵禦外人入\n侵。但是荷蘭人入侵後，整座城堡幾乎被荷蘭人毀滅殆盡。聖地牙哥城堡遺跡，如今僅存城門入口處。",
-          "tags": [
-            "歷史建築",
-            "文化遺產"
-          ],
-          "images": [],
-          "mustBuy": [],
-          "mustEat": []
-        },
-        {
-          "name": "聖保羅教堂遺址",
-          "time": "11:00",
-          "description": "1521 年時，一位葡萄牙將軍 DUARTE COELHO 在此興建一座小教堂，他希望它會是這座城市中最先進的天\n主教堂。當荷蘭人接管馬六甲後，它被改稱為聖保羅教堂。站在山丘的教堂上，可以俯瞰整座城市。",
-          "tags": [
-            "宗教遺址",
-            "城市風景"
-          ],
-          "images": [],
-          "mustBuy": [],
-          "mustEat": []
-        },
-        {
-          "name": "人力花花三輪車遊古城",
-          "time": "11:30",
-          "description": "遊走穿梭於古意街道，兩旁古色古香的建築，彷彿回到時光隧道之中。\r\n ※搭乘三輪車，請別忘了給辛苦的三輪車夫小費喔！(每部車馬幣4元)。",
-          "tags": [
-            "體驗活動",
-            "懷舊風情"
+            "神社參拜",
+            "神宮茶屋",
+            "六花亭 神宮茶屋店"
           ],
           "images": [
-            "/riskshaw-1.jpg",
-            "/riskshaw-2.jpg"
+            "https://i0.wp.com/journey.tw/wp-content/uploads/2024-05-03-153152-81.jpg?resize=1100%2C734&quality=99&ssl=1",
+            "https://chictirpstorageprod.blob.core.windows.net/poi/e786532b-a508-4fef-83f4-f852ca8956d5.jpg"
           ],
-          "mustBuy": [],
-          "mustEat": []
-        },
-        {
-          "name": "雞場街（古董街）散策\r\nJonker Walk",
-          "time": "12:00",
-          "description": "又名古董街，當地保留著300年前明末清初的古老建築，走在明朝建築遺跡裡，有時空錯置的感覺，街道二旁的店\n家，你可以發掘到不少令人驚喜的手工藝品及紀念品。",
-          "tags": [
-            "歷史街區",
-            "手工藝",
-            "美食",
-            "紀念品"
-          ],
-          "images": [
-            "/jonker-walk.jpg"
-          ],
+          "mustEat": [],
           "mustBuy": [
-            "手工藝品",
-            "紀念品"
+            "御朱印",
+            "御守"
           ],
-          "mustEat": [
-            "當地小吃"
-          ]
+          "map": "https://maps.app.goo.gl/ALGafCHJ3k3sfrQs5",
+          "reference": [
+            "https://www.gltjp.com/zh-hant/article/item/20333/"
+          ],
+          "isMeal": false
         },
         {
-          "name": "侏羅紀奇幻世界\r\nDINO DESERT",
-          "time": "16:00",
-          "description": "馬來西亞最新必訪景點，帶你進入史前世界，與巨大的恐龍近距離接觸！這裡不只是個主題樂園，更是充滿冒險與驚奇的恐龍樂園！",
+          "name": "回大通附近吃午餐",
+          "time": "11:40-13:30",
+          "description": "考量到當天為 1/2，回鬧區比較找得到東西吃。",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "reference": [],
+          "isMeal": true
+        },
+        {
+          "name": "大通附近晃晃",
+          "time": "13:40-15:00",
+          "description": "- 大通公園\n- 札幌市時計台\n- 北海道廳紅磚廳舍（舊本廳舍）\n- 六花亭 札幌本店（買一買還能回飯店放www）\n- 札幌啤酒博物館（optional）\n- JR塔展望室T38（optional）",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "前往藻岩山搭纜車＆看夜景",
+          "time": "15:10-17:30",
+          "description": "冬季（12/1 – 3/31）：11:00~22:00，最後一班上山 21:30。\n\n纜車運行分成兩段，もいわ山麓駅 → もいわ中腹駅 → もいわ山頂駅（展望台）\n\n從最下面的山麓駅到山頂站來回：大人1,700日圓／兒童850日圓。",
           "tags": [
-            "主題樂園",
-            "恐龍",
-            "親子",
-            "拍照熱點"
+            "知名夜景",
+            "纜車"
           ],
           "images": [
-            "dino-desert.jpg"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwSRm38NpB4Yfym6EA8Yt2-nS6vnqaKEsizA&shttps://www.notion.so/image/attachment%3Aa62543ce-f848-440a-af83-49904718178f%3Aimage.png?table=block&id=28ed53e9-1373-80aa-a811-eb359026a257&spaceId=95fc6cd3-0208-4933-8ba6-ecd07de93d23&width=2000&userId=b21b278f-4809-4973-a399-ff81660f3884&cache=v2"
           ],
+          "mustEat": [],
           "mustBuy": [],
-          "mustEat": []
+          "map": "https://maps.app.goo.gl/XUir2dtJ2WMUyQS48",
+          "reference": [
+            "https://zh-tw-72987.site-translation.com/status/"
+          ],
+          "isMeal": false,
+          "transportation": "（路面電車）中央區役所前 → ropewine 入口，步行至纜車入口藻岩山麓站約 8 分鐘。"
+        },
+        {
+          "name": "下山吃晚餐",
+          "time": "17:40-20:30",
+          "description": "- 成吉思汗烤肉\n- 湯咖哩\n- moyuk SAPPORO 複合式商場內吃，吃完繼續逛",
+          "tags": [
+            "晚餐",
+            "商場"
+          ],
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbab_8GM8WuYrlEs4u-3EMm68glu27W6-Njw&s",
+            "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/10/00/a1000557/img/zh-tw/a1000557_parts_65d4a7c102b6c.jpg?20240220221551&q=80&rw=686&rh=490"
+          ],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/X9RtMaT6oXzLvdob7",
+          "reference": [],
+          "isMeal": true,
+          "transportation": "搭乘札幌市電至「狸小路站」下車，直接抵達商場。"
         }
       ]
     },
     {
       "date": "2026-01-03",
-      "day": 4,
+      "day": 3,
       "meals": {
-        "breakfast": "飯店內用",
-        "lunch": "古方灌醬燒鴨料理(餐標馬幣40)",
-        "dinner": "肉骨茶+麵包雞風味餐(餐標馬幣40)"
+        "breakfast": "",
+        "lunch": "",
+        "dinner": ""
       },
       "accommodation": {
-        "name": "吉隆坡萬怡飯店南店\r\nCourtyard Kuala Lumpur South",
-        "address": "",
-        "phone": "+60- 3- 86828808",
+        "name": "Sapporo View Hotel Odori Park",
+        "address": "北海道, 札幌, Chuo-ku Odori Nishi 8-chome , 日本",
+        "phone": "+81 11-261-0330",
         "checkIn": "",
         "checkOut": "",
         "images": [],
@@ -286,156 +276,127 @@
       },
       "spots": [
         {
-          "name": "黑風洞 + 彩虹階梯",
-          "time": "09:00",
-          "description": "印度教聖地，洞深十哩，蜿蜒崎嶇，驚險刺激，感受異國神秘宗教洗禮。須攀登 272 層階梯方可抵達洞內神殿，洞內有成群猴子與蝙蝠，還有高達 100 公尺的寺廟透天洞。偶有陽光斜入，氣氛莊嚴神秘。",
-          "tags": [
-            "宗教文化",
-            "自然奇景",
-            "拍照景點"
-          ],
-          "images": [
-            "/batu-caves-1.jpeg",
-            "/batu-caves-2.jpg"
-          ],
-          "mustBuy": [],
-          "mustEat": [],
-          "extra": {
-            "title": "入場注意事項",
-            "items": [
-              "女性需穿及膝褲或裙子方可進入",
-              "提供沙龍租借服務，租金 RM5，歸還時可退 RM2 抵押金"
-            ]
-          }
-        },
-        {
-          "name": "土產店",
-          "time": "11:00",
-          "description": "自由選購各式馬來西亞知名特產，如豆蔻膏、花生糖、肉骨茶與東革阿里，做為伴手禮送親友。",
-          "tags": [
-            "土產選購",
-            "伴手禮",
-            "美食特產"
-          ],
+          "name": "出門 + 搭 JR 前往小樽",
+          "time": "8:30-10:00",
+          "description": "",
+          "tags": [],
           "images": [],
-          "mustBuy": [
-            "豆蔻膏",
-            "花生糖",
-            "肉骨茶",
-            "東革阿里"
-          ],
-          "mustEat": []
-        },
-        {
-          "name": "竹林山水園\r\nBamboo Hills",
-          "time": "13:00",
-          "description": "吉隆坡網紅打卡新熱點，佔地 16 英畝，被稱為城市後花園。以竹林景觀與綠意植栽為主題，氛圍清幽，彷彿置身世外桃源。",
-          "tags": [
-            "自然景點",
-            "打卡景點",
-            "療癒系"
-          ],
-          "images": [
-            "/bamboo-hills-1.jpg",
-            "/bamboo-hills-2.jpeg"
-          ],
+          "mustEat": [],
           "mustBuy": [],
-          "mustEat": []
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
         },
         {
-          "name": "REXKL 書海迷宮 BookXcess",
-          "time": "15:00",
-          "description": "舊戲院改建而成的超大書店，書架以原有階梯打造成迷宮結構，佔地 6000 平方英尺，藏書逾 8 萬冊，風格前衛新穎。",
-          "tags": [
-            "特色書店",
-            "文青景點",
-            "建築改造"
-          ],
-          "images": [
-            "/book-xcess-1.png",
-            "/book-xcess-2.jpeg"
-          ],
+          "name": "早餐",
+          "time": "10:00-11:30",
+          "description": "小樽隔壁三角市場吃海鮮",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
           "mustBuy": [],
-          "mustEat": []
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": true
         },
         {
-          "name": "鬼仔巷壁畫街\r\nKwai Chai Hong",
-          "time": "16:30",
-          "description": "由一條T字形的巷弄和十間店屋組成的鬼仔巷，位在戲院巷（Lorong Panggung）和茨廠街之間，整條巷弄被繪上壁畫，增添一番風味。\r\n鬼仔巷的壁畫是源自於一個翻新的項目， 展現了1960年代聚居在巷弄間華人移民的生活日常，這些很有年代感的壁畫，由五位藝術家漏夜趕工創作完成。",
-          "tags": [
-            "藝術街區",
-            "文化歷史",
-            "拍照景點"
-          ],
-          "images": [
-            "/kwai-chai-hong-1.jpg",
-            "/kwai-chai-hong-2.jpeg"
-          ],
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
           "mustBuy": [],
-          "mustEat": []
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
         },
         {
-          "name": "星光大道\r\nBukit Bintang",
-          "time": "18:00",
-          "description": "吉隆坡最熱鬧的時尚娛樂街區，集購物、美食與夜生活於一體，白天逛街購物、夜晚霓虹閃爍。擁有多間百貨與美食街，感受馬來多元文化魅力。",
-          "tags": [
-            "潮流地標",
-            "購物天堂",
-            "夜生活"
-          ],
-          "images": [
-            "/bukit-bintang.png"
-          ],
-          "mustBuy": [
-            "潮牌服飾",
-            "特色紀念品"
-          ],
-          "mustEat": [
-            "Jalan Alor 美食街小吃"
-          ],
-          "extra": {
-            "title": "必玩亮點",
-            "items": [
-              "購物中心：Lot 10、Fahrenheit88、Sungei Wang",
-              "霓虹街景、街頭藝人表演",
-              "打卡熱點：街景夜拍"
-            ]
-          }
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
         },
         {
-          "name": "巴比倫百貨城\r\nPavilion KL",
-          "time": "19:30",
-          "description": "吉隆坡頂級購物中心，國際精品、世界美食匯聚之地，節慶期間更有華麗布景與展覽活動，是馬來西亞的逛街首選地標。",
-          "tags": [
-            "百貨購物",
-            "節慶布景",
-            "國際品牌"
-          ],
-          "images": [
-            "/pavilion-kl.jpeg"
-          ],
-          "mustBuy": [
-            "LV、Chanel、Prada 精品",
-            "本地設計品牌商品"
-          ],
-          "mustEat": [
-            "世界美食廣場料理",
-            "馬來特色小吃"
-          ],
-          "extra": {
-            "title": "打卡亮點",
-            "items": [
-              "聖誕與農曆新年裝飾",
-              "藝術展與裝置",
-              "地標噴泉"
-            ]
-          }
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "",
+          "time": "",
+          "description": "",
+          "tags": [],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
         }
       ]
     },
     {
       "date": "2026-01-04",
-      "day": 5,
+      "day": 4,
       "meals": {
         "breakfast": "飯店內用",
         "lunch": "機場自理",
@@ -503,23 +464,55 @@
           "mustBuy": []
         }
       ]
+    },
+    {
+      "date": "2026-01-05",
+      "day": 5,
+      "spots": [],
+      "accommodation": {
+        "name": "札幌蒙特利埃德爾霍夫酒店"
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "day": 6,
+      "spots": [],
+      "accommodation": {
+        "name": "札幌蒙特利埃德爾霍夫酒店"
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "day": 7,
+      "spots": [],
+      "accommodation": {
+        "name": "札幌蒙特利埃德爾霍夫酒店"
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "day": 8,
+      "spots": [],
+      "accommodation": {
+        "name": "札幌蒙特利埃德爾霍夫酒店"
+      }
     }
   ],
   "noticeItems": [
     {
-      "title": "\uD83D\uDEC2 護照與文件",
+      "title": "🛂 護照與文件",
       "content": "確認護照效期超過 6 個月。務必攜帶護照、機票、保險資料與團體行程確認單。"
     },
     {
-      "title": "\uD83D\uDCB3 貨幣與信用卡",
+      "title": "💳 貨幣與信用卡",
       "content": "建議兌換部分日幣現金（小額零用），並備妥至少一張信用卡以備不時之需。"
     },
     {
-      "title": "\uD83E\uDE7A 保險事項",
+      "title": "🩺 保險事項",
       "content": "若已加保旅遊平安險，請確認保單內容。行程期間注意安全，如有不適請立即告知。"
     },
     {
-      "title": "\uD83D\uDCF6 通訊上網",
+      "title": "📶 通訊上網",
       "content": "建議攜帶 WiFi 機或 SIM 卡，方便聯繫與即時定位。請避免高額漫遊費。"
     }
   ]
