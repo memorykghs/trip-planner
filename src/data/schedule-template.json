@@ -61,6 +61,11 @@
     {
       "date": "2026-01-01",
       "day": 1,
+      "meals": {
+        "breakfast": "",
+        "lunch": "",
+        "dinner": ""
+      },
       "accommodation": {
         "name": "宜必思馬六甲酒店 Ibis Melaka",
         "address": "",

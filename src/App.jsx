@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import './index.css';
 
@@ -12,7 +12,7 @@ import tripData from "./data/schedule.json";
 import PasswordPage from "./pages/PasswordPage.jsx";
 
 const PASSWORD_KEY = 'trip_password_verified';
-const PASSWORD_TTL = 1000 * 60 * 60 * 24 * 5; // 密碼 localStorage 5 天
+const PASSWORD_TTL = 1000 * 60 * 60 * 4; // 密碼 localStorage 4 小時
 
 function App() {
     const {
@@ -23,11 +23,10 @@ function App() {
         noticeItems = []
     } = tripData;
 
-    const [setSelectedDayIndex] = useState(0);
     const [unlocked, setUnlocked] = useState(false);
 
     useEffect(() => {
-        const stored = localStorage.getItem('trip-unlock');
+        const stored = localStorage.getItem(PASSWORD_KEY);
         if (stored) {
             const { unlocked: savedUnlocked, expires } = JSON.parse(stored);
             if (savedUnlocked && new Date().getTime() < expires) {
@@ -63,12 +62,10 @@ function App() {
                     <Routes>
                         <Route path="/" element={<HomePage tripData={tripData}/>}/>
                         <Route path="/contacts" element={<ContactPage contacts={contacts}/>}/>
-                        <Route path="/package"
+                        <Route path="/packages"
                                element={<PackagePage preTripChecklist={preTripChecklist} luggageList={luggageList}/>}/>
-                        <Route path="/itinerary" element={<ItineraryPage itinerary={itinerary}
-                                                                         setSelectedDayIndex={setSelectedDayIndex}/>}/>
-                        <Route path="/notice" element={<NoticePage noticeItems={noticeItems}
-                                                                   setSelectedDayIndex={setSelectedDayIndex}/>}/>
+                        <Route path="/itinerary" element={<ItineraryPage/>}/>
+                        <Route path="/notice" element={<NoticePage noticeItems={noticeItems}/>}/>
                     </Routes>
                 </div>
             </Router>

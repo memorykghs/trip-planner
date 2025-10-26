@@ -2,11 +2,8 @@ import React from "react";
 import ItineraryTabs from "../components/ItineraryTabs.jsx";
 
 // 行程 Tabs
-export default function ItineraryPage({itinerary, setSelectedDayIndex}) {
+export default function ItineraryPage() {
     return (
-        <ItineraryTabs
-            days={itinerary}
-            onSelect={setSelectedDayIndex}
-        />
+        <ItineraryTabs />
     );
 }
