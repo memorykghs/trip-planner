@@ -1,0 +1,41 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding-top: 21px;
+    font-family: 'Noto Sans TC', sans-serif;
+    background: linear-gradient(to bottom, #B1F0F7, #F5F0CD);
+    color: #222;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.head-title {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 500;
+    color: #41535b;
+    word-break: break-word;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        max-width: 95%;
+        padding: 1rem;
+    }
+
+    .head-title {
+        font-size: 50px;
+        padding: 1rem 0.5rem;
+    }
+}
