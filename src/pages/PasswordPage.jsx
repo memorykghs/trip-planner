@@ -43,7 +43,7 @@ function PasswordPage({onUnlock}) {
                         className="password-input"
                     />
                     <button type="submit" className="password-button" onClick={handleSubmit}>
-                        <img src="/icons8-enter-48.png" alt="" style={{width: '30px', height: '30px'}}/>
+                        <img src="/icons/icons8-enter-48.png" alt="" style={{width: '30px', height: '30px'}}/>
                     </button>
                 </div>
             </form>

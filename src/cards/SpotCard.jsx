@@ -38,7 +38,7 @@ export default function SpotCard({ spot }) {
                         rel="noopener noreferrer"
                         className="map-link"
                     >
-                        📍 地圖
+                        地圖
                     </a>
                 </div>
             )}

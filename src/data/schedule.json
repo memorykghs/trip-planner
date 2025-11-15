@@ -209,11 +209,19 @@
           "time": "13:40-15:00",
           "description": "- 大通公園\n- 札幌市時計台\n- 北海道廳紅磚廳舍（舊本廳舍）\n- 六花亭 札幌本店（買一買還能回飯店放www）\n- 札幌啤酒博物館（optional）\n- JR塔展望室T38（optional）",
           "tags": [],
-          "images": [],
+          "images": [
+            "https://img.activityjapan.com/wi/hokkaido-winter-route_thumb.jpg",
+            "https://www.saihok.jp/hokkaido/wp-content/uploads/2017/01/tokeidai12.jpg",
+            "https://i0.wp.com/journey.tw/wp-content/uploads/20191202180012_9.jpg",
+            "https://jjphoto.tw/wp-content/uploads/58a64f093ede9c6e0265027e2d0d426d.jpg",
+            "https://journey.tw/wp-content/uploads/2023-10-04-221215-2.jpg"
+          ],
           "mustEat": [],
           "mustBuy": [],
           "map": "",
-          "reference": [],
+          "reference": [
+            "https://tahokkaido.com/sapporot38/"
+          ],
           "isMeal": false
         },
         {
@@ -302,9 +310,153 @@
           "isMeal": true
         },
         {
-          "name": "",
-          "time": "",
-          "description": "",
+          "name": "前往伴手禮戰區",
+          "time": "11:30-12:30",
+          "description": "經過：\n- 日銀通\n- 日本銀行舊小樽支店金融資料館（外觀）\n- 壽司屋通\n- 介町通",
+          "tags": [
+            "歷史建築",
+            "壽司",
+            "當地特色小吃"
+          ],
+          "images": [
+            "https://static.amanaimages.com/imgroom/rf_preview640/10922/10922004471.jpg",
+            "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/10/00/a1000544/img/zh-tw/a1000544_parts_65c36d290db59.jpg"
+          ],
+          "mustEat": [
+            "壽司",
+            "生魚片"
+          ],
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/fke1qYe5JdwYdvhE7",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "小樽音樂盒堂",
+          "time": "12:30-16:15",
+          "description": "小樽音樂盒堂位於歷史建築「蒸汽鐘館」中，館內收藏了數百種來自世界各地的音樂盒，並有展售區可選購特色音樂盒作為伴手禮。整棟建築散發著復古氛圍，是小樽散步行程中的熱門拍照景點。",
+          "tags": [
+            "展覽館",
+            "特色商店",
+            "拍照景點"
+          ],
+          "images": [
+            "https://carolblog.tw/wp-content/uploads/2023/06/%E5%B0%8F%E6%A8%BD%E9%9F%B3%E6%A8%82%E7%9B%92%E5%A0%82_1.jpg",
+            "https://1817box.tw/wp-content/uploads/2025/05/20250215B097.jpg"
+          ],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/7xX7c47JGM8DirqRA",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "北一哨子 三號館（玻璃工藝）",
+          "time": "12:30-16:15",
+          "description": "北一哨子館是小樽最具代表性的玻璃工藝展示館，館內展示多樣化的玻璃製品，包括手工杯皿、擺飾與燈具。訪客可體驗吹玻璃或欣賞現場製作過程，是了解北海道工藝文化的絕佳地點。",
+          "tags": [
+            "玻璃工藝",
+            "文化體驗",
+            "特色商店"
+          ],
+          "images": [
+            "https://www.bring-you.info/imgs/2023/12/otaru-taishou-glass-palace-12.jpg",
+            "https://icrvb3jy.xinmedia.com/solomo/article/7/F/A/7FA6C842-BA64-CB5B-013B-64BD5D0685B2.jpg"
+          ],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/fW1Mh6qxV4amekYH8",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "六花亭 小樽運河店",
+          "time": "12:30-16:15",
+          "description": "六花亭小樽分店提供北海道知名甜點如草莓巧克力與奶油餅乾，店內設有咖啡區可內用。店面外觀低調雅緻，內部陳設溫馨，是適合短暫休息的好地方。",
+          "tags": [
+            "甜點",
+            "咖啡廳",
+            "伴手禮"
+          ],
+          "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/0d/ea/59/75/caption.jpg"
+          ],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/Kqi1Luro8iugXatr6",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "北菓樓 小樽本館",
+          "time": "12:30-16:15",
+          "description": "北菓樓小樽本館為日式糕點名店「北菓樓」在小樽的旗艦店，建築本體為復古的西洋風格舊銀行建築，店內販售知名的泡芙、年輪蛋糕、甜點禮盒等，是購買北海道伴手禮的熱門地點。",
+          "tags": [
+            "甜點",
+            "伴手禮",
+            "拍照景點"
+          ],
+          "images": [
+            "https://flyblog.cc/wp-content/uploads/2024/10/kitakaro.jpg"
+          ],
+          "mustEat": [
+            "夢不思議泡芙",
+            "妖精之森年輪蛋糕"
+          ],
+          "mustBuy": [
+            "北海道限定禮盒"
+          ],
+          "map": "https://maps.app.goo.gl/MTMLvcn3cvxJLryMA",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "LeTAO 小樽本店（雙層乳酪蛋糕）",
+          "time": "12:30-16:15",
+          "description": "LeTAO 是北海道知名甜點品牌，其小樽本店提供人氣雙層乳酪蛋糕「Double Fromage」，並設有內用區可搭配咖啡享用甜點。店鋪外觀為西洋復古風建築，極具小樽特色。",
+          "tags": [
+            "甜點",
+            "咖啡廳",
+            "拍照景點"
+          ],
+          "images": [
+            "https://flyblog.cc/wp-content/uploads/2024/10/letao.jpg"
+          ],
+          "mustEat": [
+            "雙層乳酪蛋糕",
+            "鐵觀音布丁"
+          ],
+          "mustBuy": [
+            "LeTAO 冷藏起司蛋糕禮盒"
+          ],
+          "map": "https://maps.app.goo.gl/HdR7P42jRqxmBNeb6",
+          "reference": [
+            "https://www.letao.jp/tw/",
+            "https://matcha-jp.com/tw/8295"
+          ],
+          "isMeal": false
+        },
+        {
+          "name": "往北走回小樽運河夜景經典拍攝位置 ",
+          "time": "16:15-17:30",
+          "description": "小樽運河散步 + 拍夜景（徒步逛完約 20 分鐘）\n- 淺草橋\n- 中央橋",
+          "tags": [
+            "拍照景點",
+            "經典夜景"
+          ],
+          "images": [],
+          "mustEat": [],
+          "mustBuy": [],
+          "map": "https://maps.app.goo.gl/k2GhYVhpCQdPdQrg6",
+          "transportation": "",
+          "reference": [],
+          "isMeal": false
+        },
+        {
+          "name": "逛中央通回小樽 JR 站",
+          "time": "17:30-18:00",
+          "description": " - 舊國鐵手宮線",
           "tags": [],
           "images": [],
           "mustEat": [],
@@ -315,74 +467,24 @@
           "isMeal": false
         },
         {
-          "name": "",
-          "time": "",
-          "description": "",
-          "tags": [],
+          "name": "晚餐",
+          "time": "18:00-20:00",
+          "description": "看到什麼想吃就吃！",
+          "tags": [
+            "晚餐"
+          ],
           "images": [],
           "mustEat": [],
           "mustBuy": [],
           "map": "",
           "transportation": "",
           "reference": [],
-          "isMeal": false
+          "isMeal": true
         },
         {
-          "name": "",
-          "time": "",
-          "description": "",
-          "tags": [],
-          "images": [],
-          "mustEat": [],
-          "mustBuy": [],
-          "map": "",
-          "transportation": "",
-          "reference": [],
-          "isMeal": false
-        },
-        {
-          "name": "",
-          "time": "",
-          "description": "",
-          "tags": [],
-          "images": [],
-          "mustEat": [],
-          "mustBuy": [],
-          "map": "",
-          "transportation": "",
-          "reference": [],
-          "isMeal": false
-        },
-        {
-          "name": "",
-          "time": "",
-          "description": "",
-          "tags": [],
-          "images": [],
-          "mustEat": [],
-          "mustBuy": [],
-          "map": "",
-          "transportation": "",
-          "reference": [],
-          "isMeal": false
-        },
-        {
-          "name": "",
-          "time": "",
-          "description": "",
-          "tags": [],
-          "images": [],
-          "mustEat": [],
-          "mustBuy": [],
-          "map": "",
-          "transportation": "",
-          "reference": [],
-          "isMeal": false
-        },
-        {
-          "name": "",
-          "time": "",
-          "description": "",
+          "name": "搭 JR 回札幌",
+          "time": "20:00-",
+          "description": "需要準備隔天的零食中餐晚餐！",
           "tags": [],
           "images": [],
           "mustEat": [],

@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className="navbar-header">
                 <button className="hamburger" onClick={() => setOpen(!open)}>
                     <img
-                        src="/menu-icon-48.png"
+                        src="/icons/menu-icon-48.png"
                         alt="Menu"
                         style={{ width: '30px', height: '30px' }}
                     />
@@ -23,7 +23,7 @@ export default function Navbar() {
                         <li>
                             <button className="navbar-close" onClick={() => setOpen(false)}>
                                 <img
-                                    src="/icons8-back-48.png"
+                                    src="/icons/icons8-back-48.png"
                                     alt="Menu"
                                     style={{ width: '30px', height: '30px' }}
                                 />
@@ -34,6 +34,7 @@ export default function Navbar() {
                         <li><Link to="/packages" onClick={() => setOpen(false)}>行李清單</Link></li>
                         <li><Link to="/itinerary" onClick={() => setOpen(false)}>行程</Link></li>
                         <li><Link to="/notice" onClick={() => setOpen(false)}>注意事項</Link></li>
+                        <li><Link to="/tourism" onClick={() => setOpen(false)}>旅遊特輯</Link></li>
                         <li><Link to="/edit" onClick={() => setOpen(false)}>編輯器</Link></li>
                     </ul>
                 </div>

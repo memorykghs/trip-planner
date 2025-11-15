@@ -36,7 +36,7 @@
     max-width: 800px;
 }
 
-/* 餐食卡片 - 黃色樣式 */
+/* 餐食卡片 */
 .schedule-card.meal-card {
     background: linear-gradient(to bottom, #fff7e6, #ffe6cc);
     border-color: #ffd4a3;
@@ -78,7 +78,7 @@
     padding: 4px 12px;
     border-radius: 999px;
     background: #BDE3C3;
-    font-size: 20px;
+    font-size: 16px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
     user-select: none;
@@ -162,6 +162,7 @@
 .must-buy {
     margin-top: 0.3rem;
     line-height: 1.4;
+    font-size: 18px;
 }
 
 /* 響應式設計 */
@@ -182,5 +183,12 @@
     .schedule-title {
         font-size: 20px;
         white-space: pre-line;
+    }
+
+    .must-eat,
+    .must-buy {
+        margin-top: 0.3rem;
+        line-height: 1.4;
+        font-size: 18px;
     }
 }
