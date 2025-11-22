@@ -1,47 +1,34 @@
 import React from 'react';
 import '../styles/flight-card.css'
-import NoticeCard from "./NoticeCard.jsx";
 
 export default function FlightCard({flights, flightNotices}) {
     if (!flights) return null;
 
     return (
         <div>
-            <h3 className="text-lg font-semibold mb-2">航班資訊</h3>
-            <div className="flight-table-wrapper">
-                <table className="flight-table">
-                    <thead>
-                    <tr>
-                        <th>日期</th>
-                        <th>星期</th>
-                        <th>航空公司</th>
-                        <th>班機</th>
-                        <th>起飛-抵達</th>
-                        <th>出發</th>
-                        <th>抵達</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {flights.map((flight, idx) => (
-                        <tr key={idx}>
-                            <td>{flight.date}</td>
-                            <td>{flight.weekday}</td>
-                            <td>{flight.airline}</td>
-                            <td>{flight.flightNumber}</td>
-                            <td>{flight.route}</td>
-                            <td>{flight.departureTime}</td>
-                            <td>{flight.arrivalTime}</td>
-                        </tr>
-                    ))}
-                    </tbody>
-                </table>
+            <div className="head-title">航班資訊</div>
+            <hr className="head-hr"></hr>
+            <div className="flight-card">
+                {flights.map((flight, idx) => (
+                    <div className="flight-block" key={idx}>
+                        <div className="flight-date">{flight.date}｜{flight.airline} {flight.flightNumber}</div>
+                        <div className="flight-route">
+                            <span className="airport">{flight.departure}</span>
+                            <span className="dash"> — </span>
+                            <span className="airport">{flight.arrival}</span>
+                        </div>
+                        <div className="flight-times">
+                            <span className="time">{flight.departureTime}</span>
+                            <span className="time">{flight.arrivalTime}</span>
+                        </div>
+                    </div>
+                ))}
             </div>
-            <div className="">
-                <ul className="">
-                    {flightNotices.map((item, idx) => (
-                        <li key={idx}>{item}</li>
-                    ))}
-                </ul>
+
+            <div className="notice-section">
+                {flightNotices.map((item, idx) => (
+                    <p key={idx}>{item}</p>
+                ))}
             </div>
         </div>
     );

@@ -1,24 +1,26 @@
 {
-  "tripTitle": "滑雪的日文是すき",
+  "tripTitle": "",
   "tripNumber": "",
-  "tripStartDate": "2026-01-01",
-  "tripEndDate": "2026-01-08",
+  "tripStartDate": "",
+  "tripEndDate": "",
   "flights": [
     {
       "date": "2026-01-01",
       "weekday": "四",
-      "airline": "長榮航空",
+      "airline": "長榮",
       "flightNumber": "BR116",
-      "route": "TPE/CTS",
+      "departure": "TPE",
+      "arrival": "CTS",
       "departureTime": "09:30",
       "arrivalTime": "14:05"
     },
     {
       "date": "2026-01-08",
       "weekday": "四",
-      "airline": "長榮航空",
+      "airline": "長榮",
       "flightNumber": "BR115",
-      "route": "CTS/TPE",
+      "departure": "CTS",
+      "arrival": "TPE",
       "departureTime": "15:20",
       "arrivalTime": "19:05"
     }
@@ -61,6 +63,7 @@
     {
       "date": "2026-01-01",
       "day": 1,
+      "title": "抵達札幌，旅程即將開始",
       "accommodation": {
         "name": "Sapporo View Hotel Odori Park",
         "address": "北海道, 札幌, Chuo-ku Odori Nishi 8-chome , 日本",
@@ -110,6 +113,7 @@
     {
       "date": "2026-01-02",
       "day": 2,
+      "title": "北海道神宮參拜",
       "meals": {
         "breakfast": "",
         "lunch": "",
@@ -268,6 +272,7 @@
     {
       "date": "2026-01-03",
       "day": 3,
+      "title": "小樽一日遊",
       "meals": {
         "breakfast": "",
         "lunch": "",
@@ -499,6 +504,7 @@
     {
       "date": "2026-01-04",
       "day": 4,
+      "title": "包車前往富良野",
       "meals": {
         "breakfast": "飯店內用",
         "lunch": "機場自理",
@@ -570,6 +576,7 @@
     {
       "date": "2026-01-05",
       "day": 5,
+      "title": "Snowboarding Day",
       "spots": [],
       "accommodation": {
         "name": "札幌蒙特利埃德爾霍夫酒店"
@@ -578,14 +585,16 @@
     {
       "date": "2026-01-06",
       "day": 6,
+      "title": "下山囉～～～",
       "spots": [],
       "accommodation": {
         "name": "札幌蒙特利埃德爾霍夫酒店"
       }
     },
     {
-      "date": "2026-01-08",
+      "date": "2026-01-07",
       "day": 7,
+      "title": "買！買！買！",
       "spots": [],
       "accommodation": {
         "name": "札幌蒙特利埃德爾霍夫酒店"
@@ -594,6 +603,7 @@
     {
       "date": "2026-01-08",
       "day": 8,
+      "title": "回家面對現實",
       "spots": [],
       "accommodation": {
         "name": "札幌蒙特利埃德爾霍夫酒店"

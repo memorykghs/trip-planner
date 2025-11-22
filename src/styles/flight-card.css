@@ -1,48 +1,77 @@
-.flight-table {
-    width: 100%;
-    margin-top: 0.5rem;
-    border-collapse: collapse;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    overflow: hidden;
-    white-space: nowrap;
+.flight-card{
+    /*padding: 2rem;*/
+    font-family: 'Radley', serif;
 }
 
-.flight-table th {
-    background-color: #a4dce8;
-    padding: 0.75rem;
+.flight-block {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #41535b;
+}
+
+.flight-date {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 350;
+    text-align: start;
+    padding-left: 15%;
+}
+
+.flight-route {
+    font-size: 45px;
     font-weight: 600;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #000000;
+    letter-spacing: 2px;
 }
 
-.flight-table td {
-    padding: 0.75rem;
-    border-top: 3px solid #F0EDED;
-    font-size: 0.85rem;
+.dash {
+    margin: 0 10px;
 }
 
-.flight-table td:nth-child(n+4) {
-    text-align: center;
+.flight-times {
+    font-size: 30px;
+    color: #82a1a6;
+    display: flex;
+    justify-content: center;
+    gap: 105px;
 }
 
-.flight-table-wrapper {
-    overflow-x: auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.notice-section {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #41535b;
+    white-space: pre-line;
+    margin-top: 5rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 0 5rem;
 }
 
-@media (max-width: 480px) {
-    .flight-table-wrapper {
-        overflow-x: auto;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
+.notice-section p {
+    margin-bottom: 2.5rem;
 }
 
 @media (max-width: 768px) {
-    .flight-table-wrapper {
-        overflow-x: auto;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    .flight-date {
+        font-size: 1.2rem;
+        padding-left: 10%;
+    }
+
+    .flight-route {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding-left: 6%;
+    }
+
+    .flight-times {
+        padding-left: 6%;
+    }
+
+    .notice-section {
+        padding: 0;
+    }
+
+    .notice-section p {
+        margin-bottom: 2.5rem;
     }
 }

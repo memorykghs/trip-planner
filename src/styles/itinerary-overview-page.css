@@ -1,0 +1,87 @@
+.itinerary-wrapper {
+    max-height: 80%;
+    padding: 10px;
+    overflow: visible;
+    font-family: 'Radley', serif;
+    position: relative;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 11.5%; /* 可改為想要的水平位置 */
+    width: 2px;
+    background-color: #82a1a6;
+    z-index: 0; /* 放在背景層 */
+    pointer-events: none; /* 不影響點擊 */
+}
+
+.timeline-scroll-container {
+    flex: 1;
+    max-height: 65vh;
+    overflow-y: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.timeline-scroll-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-thumb {
+    background-color: #78c2c4;
+    border-radius: 4px;
+}
+
+.timeline-scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #5fa3a6;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-item.active {
+    outline-offset: 4px;
+    border-radius: 8px;
+    background-color: rgb(174, 227, 231, 0.5);
+    box-shadow: 0 4px 12px rgb(203, 251, 255);
+    transition: all 0.3s ease;
+}
+
+.timeline-dot {
+    width: 30px;
+    height: 30px;
+    background-color: #82a1a6;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.timeline-content {
+    font-size: 1rem;
+    color: #333;
+}
+
+.day-title {
+    font-size: 1.1rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 6px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.day-date {
+    font-size: 1.2rem;
+    padding-left: 4rem;
+    color: #82a1a6;
+}

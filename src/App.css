@@ -1,12 +1,11 @@
 html, body, #root {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding-top: 21px;
-    font-family: 'Noto Sans TC', sans-serif;
-    background: linear-gradient(to bottom, #B1F0F7, #F5F0CD);
-    color: #222;
+    background: linear-gradient(to bottom, #d1faff, #f5f0cd);
     line-height: 1.6;
-    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .app-container {
@@ -21,11 +20,19 @@ html, body, #root {
     width: 100%;
     max-width: 100%;
     text-align: left;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: 450;
     color: #41535b;
     word-break: break-word;
-    padding: 1rem;
+    padding: 20px 20px 20px 40px;
+}
+
+.head-hr {
+    background-color: #64becd;
+    width: 90%;
+    height: 4px;
+    border: none;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -35,7 +42,7 @@ html, body, #root {
     }
 
     .head-title {
-        font-size: 50px;
-        padding: 1rem 0.5rem;
+        font-size: 2.5rem;
+        padding: 20px 20px 20px 40px;
     }
 }

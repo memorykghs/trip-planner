@@ -5,8 +5,13 @@ export default function HeadCard({tripData}) {
     return (
         <div>
             <div className="head-card">
-                <p><strong>團號：</strong>{tripData.tripNumber}</p>
-                <p><strong>日期：</strong>{tripData.tripStartDate} ~ {tripData.tripEndDate}</p>
+                {tripData.tripNumber &&
+                    (<p><strong>團號：</strong>{tripData.tripNumber}</p>
+                )}
+
+                {tripData.tripStartDate && tripData.tripEndDate && (
+                    <p><strong>日期：</strong>{tripData.tripStartDate} ~ {tripData.tripEndDate}</p>
+                )}
             </div>
         </div>
     );

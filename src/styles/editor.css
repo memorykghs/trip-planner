@@ -36,7 +36,6 @@
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
-    font-family: 'Noto Sans TC', sans-serif;
 }
 
 .btn-primary {
@@ -202,7 +201,6 @@
     font-size: 1.05rem;
     transition: border-color 0.2s ease;
     box-sizing: border-box;
-    font-family: 'Noto Sans TC', sans-serif;
     line-height: 1.5;
 }
 

@@ -30,7 +30,7 @@ export default function Navbar() {
                             </button>
                         </li>
                         <li><Link to="/" onClick={() => setOpen(false)}>首頁</Link></li>
-                        <li><Link to="/contacts" onClick={() => setOpen(false)}>聯絡人</Link></li>
+                        {/*<li><Link to="/contacts" onClick={() => setOpen(false)}>聯絡人</Link></li>*/}
                         <li><Link to="/packages" onClick={() => setOpen(false)}>行李清單</Link></li>
                         <li><Link to="/itinerary" onClick={() => setOpen(false)}>行程</Link></li>
                         <li><Link to="/notice" onClick={() => setOpen(false)}>注意事項</Link></li>
