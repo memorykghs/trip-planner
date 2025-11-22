@@ -10,6 +10,7 @@ import NoticePage from './pages/NoticePage';
 import EditPage from './pages/EditPage';
 import tripData from "./data/schedule.json";
 import PasswordPage from "./pages/PasswordPage.jsx";
+import ItineraryDetailPage from "./pages/ItineraryDetailPage.jsx";
 
 const PASSWORD_KEY = 'trip_password_verified';
 const PASSWORD_TTL = 1000 * 60 * 60 * 4; // 密碼 localStorage 4 小時
@@ -65,6 +66,7 @@ function App() {
                         <Route path="/packages"
                                element={<PackagePage preTripChecklist={preTripChecklist} luggageList={luggageList}/>}/>
                         <Route path="/itinerary" element={<ItineraryOverviewPage itinerary={itinerary}/>}/>
+                        <Route path="/itinerary/:day" element={<ItineraryDetailPage itinerary={itinerary} />} />
                         <Route path="/notice" element={<NoticePage noticeItems={noticeItems}/>}/>
                         <Route path="/edit" element={<EditPage/>}/>
                     </Routes>

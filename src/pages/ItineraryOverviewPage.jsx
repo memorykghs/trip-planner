@@ -1,18 +1,18 @@
-import React, { useState, useEffect, useRef } from 'react';
+// javascript
+import React, {useState, useEffect, useRef} from 'react';
+import {useNavigate} from 'react-router-dom';
 import '../styles/itinerary-overview-page.css';
 
-export default function ItineraryOverviewPage({ itinerary = [] }) {
-    if (!itinerary || itinerary.length === 0) return null;
-
+export default function ItineraryOverviewPage({itinerary = []}) {
+    // Hooks 必須無條件呼叫
     const [activeDay, setActiveDay] = useState(null);
     const scrollContainerRef = useRef(null);
     const itemRefs = useRef([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
-            if (!scrollContainerRef.current) return;
             const middleY = window.innerHeight / 2;
-
             let closestIndex = null;
             let closestDistance = Infinity;
 
@@ -34,21 +34,30 @@ export default function ItineraryOverviewPage({ itinerary = [] }) {
 
         const container = scrollContainerRef.current;
         if (container) {
-            // 初始调用一次以设置初始高亮
             handleScroll();
-            container.addEventListener('scroll', handleScroll);
+            container.addEventListener('scroll', handleScroll, {passive: true});
         }
+        window.addEventListener('scroll', handleScroll, {passive: true});
+        window.addEventListener('resize', handleScroll);
+
         return () => {
-            if (container) {
-                container.removeEventListener('scroll', handleScroll);
-            }
+            if (container) container.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', handleScroll);
         };
     }, [itinerary]);
+
+    const goToItinerary = (item, index) => {
+        const id = item.id ?? (index + 1);
+        navigate(`/itinerary/${id}`);
+    };
+
+    if (!itinerary || itinerary.length === 0) return null;
 
     return (
         <div>
             <div className="head-title">行程一覽</div>
-            <hr className="head-hr" />
+            <hr className="head-hr"/>
             <div className="itinerary-wrapper">
                 <div className="vertical-line"></div>
                 <div className="timeline-scroll-container" ref={scrollContainerRef}>
@@ -57,6 +66,12 @@ export default function ItineraryOverviewPage({ itinerary = [] }) {
                             key={index}
                             className={`timeline-item ${activeDay === index ? 'active' : ''}`}
                             ref={ele => (itemRefs.current[index] = ele)}
+                            onClick={() => goToItinerary(item, index)} // 綁在整個 item 上
+                            role="button"
+                            tabIndex={0}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter') goToItinerary(item, index);
+                            }}
                         >
                             <div className="timeline-content">
                                 <div className="day-title">
