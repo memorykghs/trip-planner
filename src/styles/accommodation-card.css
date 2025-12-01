@@ -1,11 +1,12 @@
 .accommodation-card {
-    border: 1px solid #eee;
     border-radius: 8px;
-    padding: 1rem;
     margin: 0.5rem auto;
-    background-color: #C6E7FF;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 800px;
+    font-family: 'Radley', serif;
+    color: #41535b;
 }
 
 .accommodation-header {
@@ -29,6 +30,18 @@
     color: #1e293b;
 }
 
+.accommodation-address {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.address-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
 .accommodation-phone {
     font-size: 15px;
     color: #4a4a4a;
@@ -49,20 +62,6 @@
     font-size: 16px;
 }
 
-.accommodation-extra {
-    margin-top: 16px;
-    background-color: #f5f5f5;
-    border-left: 4px solid #BDE3C3;
-    padding: 12px;
-    border-radius: 6px;
-}
-
-.extra-title {
-    font-weight: bold;
-    margin-bottom: 6px;
-    color: #333;
-}
-
 /* 手機版調整 */
 @media (max-width: 480px) {
     .accommodation-card {
@@ -77,13 +76,5 @@
 
     .accommodation-body p {
         font-size: 15px;
-    }
-
-    .extra-title {
-        font-size: 16px;
-    }
-
-    .extra-items li {
-        font-size: 14px;
     }
 }

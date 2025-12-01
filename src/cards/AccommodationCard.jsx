@@ -25,7 +25,10 @@ export default function AccommodationCard({accommodation}) {
             </div>
 
             <div className="accommodation-body">
-                {address && <p className="accommodation-address">📍 {address}</p>}
+                {address && <div className="accommodation-address">
+                    <img src="/icons/icons8-google-maps-48.png" alt="Location Icon" className="address-icon" />
+                    <p>{address}</p>
+                </div>}
                 {checkIn && <p>入住時間：{checkIn}</p>}
                 {checkOut && <p>退房時間：{checkOut}</p>}
             </div>

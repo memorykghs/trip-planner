@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../styles/itinerary-tabs.css';
+import '../styles/spot-card.css';
 import schedule from '../data/schedule.json';
 import SpotCard from "../cards/SpotCard.jsx";
 import AccommodationCard from "../cards/AccommodationCard.jsx";

@@ -1,0 +1,156 @@
+/* 行程卡片 */
+.spot-card {
+    /*border-radius: 8px;*/
+    margin: 0.5rem auto;
+    /*background-color: rgba(255, 255, 255, 0.3);*/
+    /*box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);*/
+    padding: 0 0.8rem;
+    max-width: 90%;
+}
+
+.spot-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.spot-hr {
+    background-color: #82a1a6;
+    max-width: 100%;
+    height: 1px;
+    border: none;
+    margin-bottom: 1rem;
+}
+/* 餐食卡片 */
+
+.spot-card.meal-card {
+    background: linear-gradient(to bottom, #fff7e6, #ffe6cc);
+    border-color: #ffd4a3;
+    box-shadow: 0 2px 8px rgba(255, 183, 77, 0.2);
+}
+/* 時間、標題、副標題 */
+.spot-time {
+    font-family: 'Radley', serif;
+    color: #82a1a6;
+    font-size: 20px;
+    font-weight: 800;
+}
+.spot-title {
+    font-family: 'Chiron Hei TC', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #41535b;
+}
+
+.spot-description {
+    font-family: 'Chiron Hei HK', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 460;
+    white-space: pre-line;
+    color: #41535b;
+}
+/* Tag 區塊 */
+
+.spot-tags {
+    margin: 0 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.spot-tag {
+    font-family: 'Chiron Hei TC', sans-serif;
+    padding: 1px 8px;
+    border-radius: 900px;
+    background: #82a1a6;
+    color: white;
+    font-size: 1rem;
+}
+/* 圖片區塊 */
+
+.spot-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.spot-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+/* 地圖連結容器 */
+
+.map-link-container {
+    margin-bottom: 0.75rem;
+}
+
+.map-link {
+    font-family: 'Radley', serif;
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.95rem;
+    color: #41535b;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    gap: 0.5rem;
+}
+
+.map-link:hover {
+    color: #2563eb;
+}
+
+/* 交通方式區塊 */
+.transportation-info {
+    border-radius: 8px;
+    margin: 0.5rem auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.transportation-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0 0 0.5rem 0;
+}
+
+.transportation-content {
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.6;
+    white-space: pre-line;
+    margin: 0;
+}
+
+/* 查看地圖按鈕 */
+.view-map-button {
+    display: inline-block;
+    background-color: #78c2c4;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    font-size: 20px;
+}
+.view-map-button:hover {
+    background-color: #60b1b4;
+}
+
+/* 必吃必買區塊 */
+.spot-mustEat,
+.spot-mustBuy {
+    font-family: 'Chiron Hei TC', sans-serif;
+    border-radius: 8px;
+    padding: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    color: #41535b;
+    font-weight: 460;
+}

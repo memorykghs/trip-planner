@@ -126,16 +126,10 @@
         "checkIn": "",
         "checkOut": "",
         "images": [],
-        "description": "位於熱帶雨林中的度假天堂，結合生態體驗與舒適住宿，適合親子與療癒放鬆。",
+        "description": "",
         "extra": {
-          "title": "付費活動項目",
-          "items": [
-            "Go Kart（國際卡丁賽道）RM100/次",
-            "Splash Zone 水上樂園 RM65/大人 RM45/小孩",
-            "Safari Escape Playland 野生動物園（適合12歲以下）RM45–66",
-            "Conquer Extreme Park 室內極限運動 RM80/人",
-            "Snow World 冰雪世界 RM55/大人 RM45/小孩"
-          ]
+          "title": "",
+          "items": []
         }
       },
       "spots": [
@@ -151,7 +145,7 @@
           "mustBuy": [],
           "map": "",
           "reference": [],
-          "isMeal": true
+          "isMeal": false
         },
         {
           "name": "前往北海道神宮",
@@ -285,7 +279,11 @@
         "checkIn": "",
         "checkOut": "",
         "images": [],
-        "description": ""
+        "description": "",
+        "extra": {
+          "title": "",
+          "items": []
+        }
       },
       "spots": [
         {
@@ -505,10 +503,23 @@
       "date": "2026-01-04",
       "day": 4,
       "title": "包車前往富良野",
+      "accommodation": {
+        "name": "Sapporo View Hotel Odori Park",
+        "address": "北海道, 札幌, Chuo-ku Odori Nishi 8-chome , 日本",
+        "phone": "+81 11-261-0330",
+        "checkIn": "",
+        "checkOut": "",
+        "images": [],
+        "description": "",
+        "extra": {
+          "title": "",
+          "items": []
+        }
+      },
       "meals": {
-        "breakfast": "飯店內用",
-        "lunch": "機場自理",
-        "dinner": "機上輕食"
+        "breakfast": "",
+        "lunch": "",
+        "dinner": ""
       },
       "spots": [
         {

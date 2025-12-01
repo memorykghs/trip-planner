@@ -1,9 +1,8 @@
 .extra-card {
-    border: 1px solid #eee;
+    border: 1px solid #81cdd8;
     border-radius: 8px;
     padding: 1rem;
     margin: 0.5rem auto;
-    background-color: #fafafa;
     max-width: 800px;
 }
 

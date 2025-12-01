@@ -1,0 +1,29 @@
+.itinerary-detail-wrapper {
+    max-height: 80%;
+    overflow: visible;
+    font-family: 'Radley', serif;
+    position: relative;
+}
+
+.itinerary-detail-scroll-container {
+    flex: 1;
+    max-height: 65vh;
+    overflow-y: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.itinerary-detail-scroll-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.itinerary-detail-scroll-container::-webkit-scrollbar-thumb {
+    background-color: #78c2c4;
+    border-radius: 4px;
+}
+
+.itinerary-detail-scroll-container::-webkit-scrollbar-thumb:hover {
+    background-color: #5fa3a6;
+}
