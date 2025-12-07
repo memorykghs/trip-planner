@@ -8,7 +8,7 @@ export default function FlightCard({flights, flightNotices}) {
         <div>
             <div className="head-title">航班資訊</div>
             <hr className="head-hr"></hr>
-            <div className="flight-card">
+            <div>
                 {flights.map((flight, idx) => (
                     <div className="flight-block" key={idx}>
                         <div className="flight-date">{flight.date}｜{flight.airline} {flight.flightNumber}</div>

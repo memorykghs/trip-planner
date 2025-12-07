@@ -6,6 +6,17 @@ html, body, #root {
     background: linear-gradient(to bottom, #d1faff, #f5f0cd);
     line-height: 1.6;
     overflow: hidden;
+    font-family: 'Radley', 'Chiron Hei HK', sans-serif;
+}
+
+@font-face {
+    font-family: 'Radley';
+    unicode-range: U+0000-00FF; /* 英文與基本符號 */
+}
+
+@font-face {
+    font-family: 'Chiron Hei HK';
+    unicode-range: U+4E00-9FFF; /* 中文範圍 */
 }
 
 .app-container {
@@ -25,7 +36,6 @@ html, body, #root {
     color: #41535b;
     word-break: break-word;
     padding: 20px 20px 20px 40px;
-    font-family: 'Radley', serif;
 }
 
 .head-container {
@@ -42,7 +52,6 @@ html, body, #root {
     font-size: 2.5rem;
     font-weight: 450;
     color: #41535b;
-    font-family: 'Radley', serif;
 }
 
 .head-description {
@@ -50,7 +59,6 @@ html, body, #root {
     font-weight: 450;
     color: #41535b;
     word-break: break-word;
-    font-family: 'Radley', serif;
     text-align: right;
 }
 

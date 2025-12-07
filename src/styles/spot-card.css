@@ -30,20 +30,17 @@
 }
 /* 時間、標題、副標題 */
 .spot-time {
-    font-family: 'Radley', serif;
     color: #82a1a6;
     font-size: 20px;
     font-weight: 800;
 }
 .spot-title {
-    font-family: 'Chiron Hei TC', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     color: #41535b;
 }
 
 .spot-description {
-    font-family: 'Chiron Hei HK', sans-serif;
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 460;
@@ -60,7 +57,6 @@
 }
 
 .spot-tag {
-    font-family: 'Chiron Hei TC', sans-serif;
     padding: 1px 8px;
     border-radius: 900px;
     background: #82a1a6;
@@ -89,7 +85,6 @@
 }
 
 .map-link {
-    font-family: 'Radley', serif;
     display: inline-flex;
     align-items: center;
     font-size: 0.95rem;
@@ -146,7 +141,6 @@
 /* 必吃必買區塊 */
 .spot-mustEat,
 .spot-mustBuy {
-    font-family: 'Chiron Hei TC', sans-serif;
     border-radius: 8px;
     padding: 0.8rem;
     background-color: rgba(255, 255, 255, 0.3);
