@@ -1,44 +1,37 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/navbar.css';
+import NavIcon from './NavIcon';
+
+const navItems = [
+    { to: '/', icon: '../public/icons/icons8-flight-30-gray.png', label: '航班' },
+    { to: '/packages', icon: '../public/icons/icons8-luggage-30-gray.png', label: '行李' },
+    { to: '/itinerary', icon: '../public/icons/icons8-itinerary-48-gray.png', label: '行程'},
+    { to: '/notice', icon: '../public/icons/icons8-notice-48-gray.png', label: '注意事項' },
+    { to: '/tourism', icon: '../public/icons/icons8-camera-30-gray.png', label: '靈感' },
+    { to: '/edit', icon: '../public/icons/icons8-edit-48-gray.png', label: '編輯' },
+];
 
 export default function Navbar() {
-    const [open, setOpen] = useState(false);
-
     return (
-        <nav className="navbar">
-            <div className="navbar-header">
-                <button className="hamburger" onClick={() => setOpen(!open)}>
-                    <img
-                        src="/icons/menu-icon-48.png"
-                        alt="Menu"
-                        style={{ width: '30px', height: '30px' }}
-                    />
-                </button>
+        <nav className="nav">
+            <div className="nav-scroll">
+                {navItems.map(item => (
+                    <NavLink
+                        key={item.to}
+                        to={item.to}
+                        className={({ isActive }) =>
+                            `nav-item ${isActive ? 'active' : ''}`
+                        }
+                    >
+                        {({ isActive }) => (
+                            <>
+                                <NavIcon icon={item.icon} isActive={isActive} alt={item.label} />
+                                <span>{item.label}</span>
+                            </>
+                        )}
+                    </NavLink>
+                ))}
             </div>
-
-            {open && (
-                <div className="navbar-overlay" onClick={() => setOpen(false)}>
-                    <ul className="navbar-menu" onClick={(e) => e.stopPropagation()}>
-                        <li>
-                            <button className="navbar-close" onClick={() => setOpen(false)}>
-                                <img
-                                    src="/icons/icons8-back-48.png"
-                                    alt="Menu"
-                                    style={{ width: '30px', height: '30px' }}
-                                />
-                            </button>
-                        </li>
-                        <li><Link to="/" onClick={() => setOpen(false)}>首頁</Link></li>
-                        {/*<li><Link to="/contacts" onClick={() => setOpen(false)}>聯絡人</Link></li>*/}
-                        <li><Link to="/packages" onClick={() => setOpen(false)}>行李清單</Link></li>
-                        <li><Link to="/itinerary" onClick={() => setOpen(false)}>行程</Link></li>
-                        <li><Link to="/notice" onClick={() => setOpen(false)}>注意事項</Link></li>
-                        <li><Link to="/tourism" onClick={() => setOpen(false)}>旅遊特輯</Link></li>
-                        <li><Link to="/edit" onClick={() => setOpen(false)}>編輯器</Link></li>
-                    </ul>
-                </div>
-            )}
         </nav>
     );
 }

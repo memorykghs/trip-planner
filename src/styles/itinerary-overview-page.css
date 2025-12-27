@@ -49,8 +49,8 @@
 .timeline-item.active {
     outline-offset: 4px;
     border-radius: 8px;
-    background-color: rgb(174, 227, 231, 0.5);
-    box-shadow: 0 4px 12px rgb(203, 251, 255);
+    background-color: rgb(155 206 255 / 50%);
+    /*box-shadow: 0 4px 12px rgb(203, 251, 255);*/
     transition: all 0.3s ease;
 }
 
