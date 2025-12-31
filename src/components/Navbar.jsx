@@ -3,12 +3,12 @@ import '../styles/navbar.css';
 import NavIcon from './NavIcon';
 
 const navItems = [
-    { to: '/', icon: '../public/icons/icons8-flight-30-gray.png', label: '航班' },
-    { to: '/packages', icon: '../public/icons/icons8-luggage-30-gray.png', label: '行李' },
-    { to: '/itinerary', icon: '../public/icons/icons8-itinerary-48-gray.png', label: '行程'},
-    { to: '/notice', icon: '../public/icons/icons8-notice-48-gray.png', label: '注意事項' },
-    { to: '/tourism', icon: '../public/icons/icons8-camera-30-gray.png', label: '靈感' },
-    // { to: '/edit', icon: '../public/icons/icons8-edit-48-gray.png', label: '編輯' },
+    { to: '/', icon: '/icons/icons8-flight-30-gray.png', label: '航班' },
+    { to: '/packages', icon: '/icons/icons8-luggage-30-gray.png', label: '行李' },
+    { to: '/itinerary', icon: '/icons/icons8-itinerary-48-gray.png', label: '行程'},
+    { to: '/notice', icon: '/icons/icons8-notice-48-gray.png', label: '注意事項' },
+    { to: '/tourism', icon: '/icons/icons8-camera-30-gray.png', label: '靈感' },
+    // { to: '/edit', icon: '/icons/icons8-edit-48-gray.png', label: '編輯' },
 ];
 
 export default function Navbar() {
