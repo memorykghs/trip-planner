@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import tripData from '../data/schedule.json';
 import '../styles/editor.css';
-
+import HomePage from './HomePage';
+import PackagePage from './PackagePage';
+import ItineraryOverviewPage from './ItineraryOverviewPage';
+import ItineraryDetailPage from './ItineraryDetailPage';
+import NoticePage from './NoticePage';
 
 function EditPage() {
     const [data, setData] = useState(tripData);
     const [activeTab, setActiveTab] = useState('basic');
     const [saveStatus, setSaveStatus] = useState('');
+    const [isPreviewMode, setIsPreviewMode] = useState(false);
+    const [selectedDayIndex, setSelectedDayIndex] = useState(0);
 
     useEffect(() => {
         const saved = localStorage.getItem('edited_schedule');
@@ -125,11 +131,46 @@ function EditPage() {
         { id: 'itinerary', name: '行程' }
     ];
 
+    // 根據當前 tab 決定預覽內容
+    const getPreviewContent = () => {
+        switch (activeTab) {
+            case 'basic':
+            case 'flights':
+                return <HomePage tripData={data} />;
+            case 'contacts':
+                return null; // ContactPage 目前未啟用
+            case 'itinerary':
+                const itinerary = data.itinerary || [];
+                if (itinerary.length > 0 && selectedDayIndex < itinerary.length) {
+                    return <ItineraryDetailPage itinerary={itinerary} day={String(selectedDayIndex)} />;
+                }
+                return <ItineraryOverviewPage itinerary={itinerary} />;
+            default:
+                return null;
+        }
+    };
+
+    // 當切換到 itinerary tab 時，如果有行程，顯示第一個行程的詳情
+    useEffect(() => {
+        if (activeTab === 'itinerary') {
+            const itinerary = data.itinerary || [];
+            if (itinerary.length > 0 && selectedDayIndex >= itinerary.length) {
+                setSelectedDayIndex(0);
+            }
+        }
+    }, [activeTab, data.itinerary, selectedDayIndex]);
+
     return (
         <div className="editor-page">
             <div className="editor-header-bar">
                 <h1>行程編輯器</h1>
                 <div className="header-actions">
+                    <button 
+                        onClick={() => setIsPreviewMode(!isPreviewMode)} 
+                        className={`btn-toggle ${isPreviewMode ? 'active' : ''}`}
+                    >
+                        {isPreviewMode ? '編輯模式' : '預覽模式'}
+                    </button>
                     <button onClick={handleSave} className="btn-primary">保存</button>
                     <button onClick={handleDownload} className="btn-success">下載 JSON</button>
                     <button onClick={handleReload} className="btn-info">重新載入</button>
@@ -138,7 +179,7 @@ function EditPage() {
                 </div>
             </div>
 
-            <div className="editor-layout">
+            <div className="editor-split-layout">
                 <div className="editor-panel">
                     <div className="editor-tabs">
                         {tabs.map(tab => (
@@ -179,8 +220,41 @@ function EditPage() {
                                 updateArrayItem={updateArrayItem}
                                 addArrayItem={addArrayItem}
                                 removeArrayItem={removeArrayItem}
+                                selectedDay={selectedDayIndex}
+                                onDayChange={setSelectedDayIndex}
                             />
                         )}
+                    </div>
+                </div>
+
+                <div className="preview-panel">
+                    <div className="preview-header">
+                        <h2>預覽畫面</h2>
+                        {activeTab === 'itinerary' && (data.itinerary || []).length > 0 && (
+                            <div className="preview-day-selector">
+                                <span>選擇天數：</span>
+                                <select 
+                                    value={selectedDayIndex} 
+                                    onChange={(e) => setSelectedDayIndex(Number(e.target.value))}
+                                    className="day-select"
+                                >
+                                    {(data.itinerary || []).map((day, idx) => (
+                                        <option key={idx} value={idx}>
+                                            Day {day.day || idx + 1}
+                                        </option>
+                                    ))}
+                                </select>
+                            </div>
+                        )}
+                    </div>
+                    <div className="preview-content-wrapper">
+                        <div className="phone-frame">
+                            {getPreviewContent() || (
+                                <div className="preview-placeholder">
+                                    <p>此頁面目前無預覽</p>
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -387,10 +461,14 @@ function ContactsEditor({ data, updateArrayItem, addArrayItem, removeArrayItem }
 }
 
 // 行程編輯
-function ItineraryEditor({ data, updateData, updateArrayItem, addArrayItem, removeArrayItem }) {
-    const [selectedDay, setSelectedDay] = useState(0);
+function ItineraryEditor({ data, updateData, updateArrayItem, addArrayItem, removeArrayItem, selectedDay: externalSelectedDay, onDayChange }) {
+    const [internalSelectedDay, setInternalSelectedDay] = useState(0);
     const [expandedSpots, setExpandedSpots] = useState({});
     const itinerary = data.itinerary || [];
+    
+    // 使用外部传入的 selectedDay，如果没有则使用内部的
+    const selectedDay = externalSelectedDay !== undefined ? externalSelectedDay : internalSelectedDay;
+    const setSelectedDay = onDayChange || setInternalSelectedDay;
 
     const addDay = () => {
         addArrayItem('itinerary', {
